@@ -3,11 +3,18 @@
 @import "_variables";
 @import "modules/hello.scss";
 
+:root {
+  --backgroung: #3767ad;
+}
+
 body {
-  background: $wtf;
+  background: var(--backgroung);
   color: #fff;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  max-width: 375px;
+  width: 100%;
 }
