@@ -1,4 +1,4 @@
-![cover](gh/cover.mp4)
+![cover](gh/cover.png)
 
 # HYDRAPP
 
