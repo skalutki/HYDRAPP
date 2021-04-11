@@ -1,12 +1,12 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "name": "HYDRAPP: PWA",
+  "short_name": "HYDRAPP: PWA",
+  "theme_color": "#3767ad",
+  "background_color": "#3767ad",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
-  "start_url": "/wtf-webpack-starter/",
+  "scope": "/HYDRAPP/",
+  "start_url": "/HYDRAPP/",
   "icons": [
     {
       "src": "pwa/manifest-icon-192.png",
