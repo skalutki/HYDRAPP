@@ -41,3 +41,13 @@ buttonRemove.addEventListener("click", () => {
   counter.innerHTML = currentGlassCounter;
   localStorage.setItem(key, currentGlassCounter);
 });
+
+
+
+
+const navButton = document.querySelector('.more__button');
+const navigation = document.querySelector('.navigation')
+navButton.addEventListener('click', () =>{
+  navButton.classList.toggle('more__active-js');
+  navigation.classList.toggle('navigation__active-js');
+})

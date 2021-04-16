@@ -1,0 +1,32 @@
+.navigation {
+  width: 200px;
+  height: 100vh;
+  background-color: rgba(112, 107, 107, 0.657);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(250px);
+  visibility: hidden;
+
+  &__list {
+    list-style: none;
+    margin-top: 85px;
+  }
+
+  &__item {
+    margin-bottom: 24px;
+    a {
+      text-decoration: none;
+    }
+  }
+  &__active-js {
+    transform: translateX(0);
+    transition: transform 0.3s 0.1s ease-in-out, visibility 0s 0s;
+    visibility: visible;
+  }
+}
+
+.more__button,
+.navigation {
+  transition: transform 0.3s 0.1s ease-in-out, visibility 0s 0.4s;
+}

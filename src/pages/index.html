@@ -164,12 +164,30 @@
       media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
     />
   </head>
-  <body class="hydrapp">
-    <h1 class="hydrapp__title">hydrapp</h1>
-    <div class="hydrapp__glass">
-      <span class="hydrapp__glass--counter counter--js">0</span>
-    </div>
-    <button class="hydrapp__add hydrapp__add--js">dodaj szklankę</button>
-    <button class="hydrapp__remove hydrapp__remove--js">usuń szklankę</button>
+  <body class="body">
+    <header class="header">
+      <button class="more__button">
+        <span class="sr-only">Otwórz/zamknij menu</span>
+        <span class="more__box">
+          <span class="more__inner more icon"></span>
+        </span>
+      </button>
+      <section class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href=""></a>Historia</li>
+          <li class="navigation__item"><a href=""></a>Historia</li>
+          <li class="navigation__item"><a href=""></a>Historia</li>
+          <li class="navigation__item"><a href=""></a>Historia</li>
+        </ul>
+      </section>
+    </header>
+    <main class="hydrapp">
+      <h1 class="hydrapp__title">hydrapp</h1>
+      <div class="hydrapp__glass">
+        <span class="hydrapp__glass--counter counter--js">0</span>
+      </div>
+      <button class="hydrapp__add hydrapp__add--js">dodaj szklankę</button>
+      <button class="hydrapp__remove hydrapp__remove--js">usuń szklankę</button>
+    </main>
   </body>
 </html>
